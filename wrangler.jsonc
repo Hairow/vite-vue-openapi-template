@@ -23,8 +23,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "vite-vue-openapi-template-db",
-      "database_id": "replace_with_your_database_id",
+      "database_name": "my-db-name",
+      "database_id": "8578136b-3a1d-4543-b12c-88136633fe53",
       "migrations_dir": "migrations"
     }
   ]
