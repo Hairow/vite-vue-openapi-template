@@ -83,7 +83,6 @@ const showSnackbar = ref(false);
 const snackbarMessage = ref('');
 const snackbarColor = ref('success');
 const newTodo = ref({ title: '', description: '' });
-
 const { data: todos, isLoading } = useQuery(getTodosOptions());
 
 const { mutate: createTodo, isPending: isCreating } = useMutation({
