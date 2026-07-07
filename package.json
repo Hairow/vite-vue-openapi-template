@@ -14,7 +14,7 @@
     "type-check": "vue-tsc --build",
     "deploy": "npm run build && wrangler deploy",
     "cf-typegen": "wrangler types",
-    "schema": "node scripts/fetch-openapi.ts",
+    "schema": "tsx scripts/fetch-openapi.ts",
     "generate": "npm run schema && openapi-ts",
     "test": "vitest",
     "test:ui": "vitest --ui",
