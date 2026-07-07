@@ -86,7 +86,6 @@ const newTodo = ref({ title: '', description: '' });
 
 const { data: todos, isLoading } = useQuery(getTodosOptions());
 
-
 const { mutate: createTodo, isPending: isCreating } = useMutation({
   ...createTodoMutation(),
   onSuccess: () => {
